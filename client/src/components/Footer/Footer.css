@@ -1,0 +1,18 @@
+:root {
+  --bg-color: #f4f3ff;
+  --btn-color: #646cff;
+  --dark-color: #242424;
+  --helper-color: #99b9ff;
+}
+:root .dark-mode{
+  --bg-color: #000000;
+  --btn-color: #e1e1e1;
+  --dark-color: #e1e1e1;
+  --helper-color: #bac18c;
+}
+footer {
+  padding: 3.2rem;
+  text-align: center;
+  background-color: var(--btn-color);
+  margin-top: 2vw;
+}

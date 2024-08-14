@@ -1,0 +1,30 @@
+:root {
+  --bg-color: #f4f3ff;
+  --btn-color: #646cff;
+  --dark-color: #242424;
+  --helper-color: #99b9ff;
+}
+:root .dark-mode{
+  --bg-color: #000000;
+  --btn-color: #e0ff64;
+  --dark-color: #131313;
+  --helper-color: #bac18c;
+}
+
+.container {
+  background-color: var(--dark-color);
+  max-width: 140rem;
+  padding: 4.2rem 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 3.2rem;
+}
+.togglebutton{
+  color: white;
+  background-color: var(--btn-color);
+
+}
